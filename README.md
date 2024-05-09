@@ -21,8 +21,6 @@ ans=np.linalg.norm(mat,1)
 norm_of_matrix="{:.2f}".format(ans)
 print(norm_of_matrix)
 
-
-
 # 2-Norm of a Matrix
 '''
 Program to find 2-norm of a matrix.
@@ -36,9 +34,6 @@ mat=np.array(eval(input()))
 ans=np.linalg.norm(mat,2)
 norm_of_matrix="{:.2f}".format(ans)
 print(norm_of_matrix)
-
-
-
 
 # Infinity Norm of a Matrix
 import numpy as np
